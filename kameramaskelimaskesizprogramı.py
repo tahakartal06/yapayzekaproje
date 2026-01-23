@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # ================= MODEL =================
-model = load_model("model/keras_model.h5")
+model = load_model("keras_model.h5")
 
 # ================= KAMERA =================
 kamera = cv2.VideoCapture(0)
